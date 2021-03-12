@@ -1,18 +1,30 @@
-#tipe data boolean
-print(True)
+#proses memasukan data ke dalam variabel
+nama = "Safely Afnan"
+#proses mencetak variabel
+print(nama)
 
-#tipe data string
-print("Ayo belajar python")
-print('Belajar Python Sangat Mudah')
+#nilai dan tipe data dalam variabel dapat diubah
+umur = 19               #nilai awal
+print(umur)             #mencetak nilai umur
+type(19)                #mengecek tipe data umur
+umur = "sembilan belas" #nilai setelah diubah
+print(umur)             #mencetak nilai umur
+type(umur)              #mengecek tipe data umur
 
-#tipe data Integer
-print(20)
+namaDepan = "Safely"
+namaBelakang = "Afnan"
+nama = namaDepan + " " + namaBelakang
+umur = 19
+hobi = "berkuda"
+print("Biodata\n", nama, "\n", umur, "\n", hobi)
 
-#tipe data Float
-print(3.14)
+#contoh variabel lainya
+inivariabel = "halo"
+ini_juga_variabel = "Hai"
+_inivariabeljuga = "Hi"
+inivariabel222 = "Bye"
 
-#tipe data Hexadecimal
-print(9)
-
-#tipe data Complex
-print(5j)
+panjang = 10
+lebar = 5
+luas = panjang * lebar
+print(luas)
